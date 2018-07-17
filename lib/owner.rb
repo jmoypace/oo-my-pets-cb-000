@@ -9,7 +9,7 @@ end
   def all
     @@all
   end
-  def self.count
+  def count
     @@counter
   end
   def reset
