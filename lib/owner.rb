@@ -13,8 +13,8 @@ end
   def self.all
     OWNERS
   end
-  def count
-    @@counter
+  def self.count
+    OWNERS.size
   end
   def self.reset_all
     OWNERS.clear
