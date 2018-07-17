@@ -16,7 +16,7 @@ end
   def count
     @@counter
   end
-  def reset_all
-    @@all.clear
+  def self.reset_all
+    OWNERS.clear
   end
 end
