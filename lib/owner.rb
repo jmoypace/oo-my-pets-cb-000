@@ -20,5 +20,6 @@ end
     OWNERS.clear
   end
   def say_species
+    self
   end
 end
