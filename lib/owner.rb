@@ -3,6 +3,7 @@ class Owner
   @@all=[]
   @@counter=0
 def initialize(animal)
+  
   @@all<<self
   @@counter+=1
 end
