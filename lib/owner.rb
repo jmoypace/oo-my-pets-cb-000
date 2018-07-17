@@ -22,7 +22,7 @@ end
   def say_species
     "I am a #{species}."
   end
-  def buy_fish
-   pets=fish.new
+  def buy_fish(name)
+   pets[:fishes]<<Fish.new(name)
   end
 end
