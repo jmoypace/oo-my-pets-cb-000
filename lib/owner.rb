@@ -42,7 +42,8 @@ end
   end
 end
 def feed_fish
-
+  pets[:fishs].each do |fish|
+    fish.mood = "happy"
 end
 
 def sell_pets
