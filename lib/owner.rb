@@ -20,6 +20,6 @@ end
     OWNERS.clear
   end
   def say_species
-    self
+    "I am a #{species}."
   end
 end
