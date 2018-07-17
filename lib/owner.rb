@@ -2,11 +2,11 @@ class Owner
   # code goes here
   @@all=[]
   @@counter=0
-def initialize
+def initialize(animal)
   @@all<<self
   @@counter+=1
 end
-  def self.all
+  def all
     @@all
   end
   def count
