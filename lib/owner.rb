@@ -25,4 +25,10 @@ end
   def buy_fish(name)
    pets[:fishes]<<Fish.new(name)
   end
+  def buy_cat(name)
+   pets[:cats]<<Cat.new(name)
+  end
+  def buy_Dog(name)
+   pets[:dogs]<<Dog.new(name)
+  end
 end
