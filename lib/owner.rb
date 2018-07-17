@@ -41,4 +41,6 @@ end
       cat.mood = "happy"
   end
 end
+def feed_fish
+end
 end
