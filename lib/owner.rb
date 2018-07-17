@@ -22,4 +22,7 @@ end
   def say_species
     "I am a #{species}."
   end
+  def buy_fish
+   pets=fish.new
+  end
 end
