@@ -12,7 +12,7 @@ end
   def count
     @@counter
   end
-  def reset
+  def reset_all
     @@all.clear
   end
 end
