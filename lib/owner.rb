@@ -5,7 +5,7 @@ class Owner
   attr_reader :species
 
   @@counter=0
-def initialize(animal)
+def initialize(species)
 
   OWNERS<<self
   @@counter+=1
