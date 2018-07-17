@@ -31,4 +31,6 @@ end
   def buy_dog(name)
    pets[:dogs]<<Dog.new(name)
   end
+  def walk_dogs
+  end
 end
