@@ -3,11 +3,11 @@ class Owner
   OWNERS=[]
   attr_accessor :name, :pets
   attr_reader :species
-  @@all=[]
+  
   @@counter=0
 def initialize(animal)
 
-  @@all<<self
+  OWNERS<<self
   @@counter+=1
 end
   def all
